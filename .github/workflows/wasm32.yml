@@ -17,7 +17,7 @@ jobs:
     container: crystallang/crystal:1.14.0-build
     steps:
       - name: Download Crystal source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Install wasmtime
         uses: mwilliamson/setup-wasmtime-action@v2
